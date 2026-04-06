@@ -76,7 +76,7 @@ int main() {
             std::cout << std::endl;
         }
     }
-    catch (std::domain_error e) {
+    catch (std::domain_error &e) {
         std::cout << std::endl << "GRESKA: " << e.what() << "!" << std::endl;
     }
     return 0;
