@@ -6,6 +6,7 @@
 #include <stdexcept>
 #include <cctype>
 
+
 using std::cout, std::cin, std::endl, std::vector, std::string, std::domain_error;
 
 string ispraviRecenicu (const string &s, char c) {
