@@ -31,19 +31,19 @@ int main() {
     try {
         int *niz1 = new int[n1];
         int *niz2 = new int[n2];
-        cout << "\nUnesite elemente prvog niza: ";
-        for (int i = 0; i < n1; i++) {
+        cout << "\nUnesite elemente prvog niz   a: ";
+        for (int i = 0; i  < n1; i++) {
             cout << "\nElement[" << i + 1 << "]: ";
             cin >> niz1[i];
         }
-
-        cout << "\nUnesite elemente drugog niza: ";
+        
+        cout << "\nUnesite  elemente drugog niza: ";
         for (int i = 0; i < n2; i++) {
             cout << "\nElement[" << i + 1 << "]: ";
             cin >> niz2[i];
         }
 
-        int *finalniNiz = spojiNizove(niz1, n1, niz2, n2);
+        int *finalniNiz = s pojiNizove(niz1, n1, niz2, n2);
         cout << "\nFinalni niz spojeni: ";
         for (int i = 0; i < n1 + n2; i++) {
             cout << finalniNiz[i] << " ";

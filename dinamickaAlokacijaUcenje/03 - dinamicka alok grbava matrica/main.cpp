@@ -24,13 +24,14 @@ int main() {
         }
 
         cout << "\nGrbava matrica: " << endl;
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i + 1; j++) {
                 cout << std::setw(5) << mat[i][j];
             }
-            cout << endl;
+            cout  << endl;
         }
-    } catch (...) {
+      } catch (...) {
         cout << "Alociranje neuspjesno!";
     }
     //brisanje fragmentirane matrice mora biti u petlji
