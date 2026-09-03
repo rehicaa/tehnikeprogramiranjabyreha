@@ -31,6 +31,17 @@ public:
             }
             return *this;
         }
+
+    DinamickiNiz &operator=(DinamickiNiz &&drugi) {
+        if (this == &drugi) return *this;
+        velicina = drugi.velicina;
+        pokazivac = drugi.pokazivac;
+
+        drugi.pokazivac = nullptr;
+        drugi.velicina = 0;
+
+        return *this;
+    }
 };
 
 
