@@ -1,0 +1,3 @@
+Monitor,1900,15
+Apple Airpods,450,10
+Macbook Pro,2500,15
